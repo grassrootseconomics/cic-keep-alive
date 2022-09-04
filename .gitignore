@@ -1,0 +1,6 @@
+.idea
+.env
+dev/dev-data
+migrations/*prod*
+
+dist/

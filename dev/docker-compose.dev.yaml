@@ -1,0 +1,14 @@
+services:
+  redis:
+    image: redis:6-alpine
+    restart: unless-stopped
+    network_mode: "host"
+    command: redis-server --loglevel warning
+    ports:
+      - '6379:6379'
+  asynqmon:
+    image: hibiken/asynqmon
+    restart: unless-stopped
+    network_mode: "host"
+    ports:
+      - '8080:8080'

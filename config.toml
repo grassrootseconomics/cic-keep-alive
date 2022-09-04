@@ -1,0 +1,22 @@
+[service]
+debug = false
+
+[chain]
+endpoint = ""
+gaslimit = 8000000
+
+[redis]
+dsn = ""
+
+[postgres]
+dsn = ""
+
+[periodic]
+token = "@every 1h"
+
+[signer]
+address = ""
+key = ""
+
+[checks]
+min = 0.5
