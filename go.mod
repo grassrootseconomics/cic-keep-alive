@@ -3,7 +3,7 @@ module cic-keep-alive
 go 1.19
 
 require (
-	github.com/ethereum/go-ethereum v1.10.23
+	github.com/ethereum/go-ethereum v1.10.25
 	github.com/georgysavva/scany v1.1.0
 	github.com/golang-module/carbon v1.6.9
 	github.com/grassrootseconomics/cic-go-sdk v0.1.0
