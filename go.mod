@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/ethereum/go-ethereum v1.10.23
-	github.com/georgysavva/scany v1.1.0
+	github.com/georgysavva/scany v1.2.1
 	github.com/golang-module/carbon v1.6.9
 	github.com/grassrootseconomics/cic-go-sdk v0.1.0
 	github.com/hibiken/asynq v0.23.0
@@ -43,7 +43,6 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/rogpeppe/go-internal v1.9.0 // indirect
 	github.com/shirou/gopsutil v3.21.11+incompatible // indirect
